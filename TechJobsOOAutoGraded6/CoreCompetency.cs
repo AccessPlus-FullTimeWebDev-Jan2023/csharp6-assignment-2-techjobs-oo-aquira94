@@ -5,7 +5,7 @@ namespace TechJobsOOAutoGraded6
 	{
         private int Id { get; set; }
         private static int nextId = 1;
-        private string Value { get; set; }
+        public string Value { get; set; }
 
         // TODO: Task 2: Change the fields to auto-implemented properties.
 
